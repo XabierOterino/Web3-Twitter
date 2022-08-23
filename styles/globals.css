@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input{
+    background: transparent;
+}
+.signup{
+    min-width: 900px;
+}
+.layout{
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+}
+.register{
+    width:700px;
+}
