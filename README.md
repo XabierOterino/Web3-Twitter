@@ -12,3 +12,10 @@ version , with the  ultimate Web3 stack :
 3. Tailwind.css
 4. Next.js
 
+### Profile Creation
+
+The dapp allows us to store our whole profile in a decentralised way :
+    - Strings data is stored in the contact
+    - Images are stored in IPFS
+
+#
