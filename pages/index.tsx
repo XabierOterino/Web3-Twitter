@@ -10,9 +10,10 @@ import CloseIcon from '@mui/icons-material/Close';
 import { Router } from '@mui/icons-material';
 import {create as ipfsClient} from 'ipfs-http-client'
 import { useEffect } from 'react';
-
-const projectId = '2DRvbF4qeXW3F1LDpp2WM9lTAqS';
-const projectSecret = '844c474c0f6aeee6de981fb0ec7212d5';
+import {config} from "dotenv"
+config()
+const projectId = process.env.PROJECT_ID;
+const projectSecret = process.env.PROJECT_SECRET;
 const auth =
     'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
 
@@ -175,7 +176,7 @@ export default function index(props) {
                       {formInput.picture.length && 
                         (
                           <div className='flex justify-center'> 
-                          <img className="h-32 rounded-full mt-4 w-32" src="https://bafybeiandjv76nyfkut4fprcc3sjgvflx4mwshdzvxyqguhssplkaxemxm.ipfs.cf-ipfs.com/" />
+                          <img className="h-32 rounded-full mt-4 w-32" src={formInput.picture} />
                           </div>
                         )
                       }
