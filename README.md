@@ -33,6 +33,10 @@ The user can authenticate by only connecting his metamsk without the need of pro
 to third parties.
 
 
+### Extra functionalities
+
+The Dapp also includes the posibility of donating ETH orr ERC20 tokens between the users
+
 ## Getting started
 
 1. Install dependencies
