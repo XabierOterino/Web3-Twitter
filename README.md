@@ -31,3 +31,26 @@ The private messages functionality has been removed as blockchain isn't made to 
 
 The user can authenticate by only connecting his metamsk without the need of providing personal information
 to third parties.
+
+
+## Getting started
+
+1. Install dependencies
+
+```bash
+npm i 
+```
+
+2. Deploy the contracts in your favourite network
+
+```bash
+truffle migrate 
+```
+
+3.Run the dapp in your local host
+
+```bash
+npm run dev
+```
+
+4.Enjoy!
