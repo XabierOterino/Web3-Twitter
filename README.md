@@ -2,7 +2,7 @@
 
 A more decentralised version of Twitter , relied only in smart contracts and IPFS
 
-## General Overviiew
+## General Overview
 
 The internet is fastly transitining to new technologies , that's why I decided to build the ultimate Twitter
 version , with the  ultimate Web3 stack : 
